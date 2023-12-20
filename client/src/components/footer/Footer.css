@@ -1,0 +1,84 @@
+#footer {
+  background-color: #faebd762;
+  margin-top: 20px;
+  padding-top: 20px;
+  
+}
+#footerCard {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+#footerCard h4 {
+  color: #cb822f;
+  font-weight: 700;
+}
+#footerCard p {
+  line-height: 2rem;
+}
+#footerCard ul li {
+  line-height: 2rem;
+  list-style: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#footerCard ul li:hover {
+  color: #cb822f;
+  text-decoration: none;
+}
+#footerCardNews {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+#footerCardNews input {
+  border: 1px solid #cb822f;
+  border-radius: 4px;
+  height: inherit;
+  width: 100%;
+}
+#footerCardNews button {
+  border: 1px solid #cb822f;
+  border-radius: 4px;
+  height: inherit;
+  margin-left: 5px;
+  background-color: #cb822f;
+  color: white;
+}
+#socials {
+  margin-top: 8px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#socials i {
+  color: #cb822f;
+  font-size: 20px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+#socials i:hover {
+  color: #3d74a0;
+  rotate: 25deg;
+}
+#footerRight{
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 100%;
+    
+    border-top: 1px solid #8080805a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#footerRight p{
+  color: #cb822f;
+}
+#footerRight p small{
+  color: gray;
+}
