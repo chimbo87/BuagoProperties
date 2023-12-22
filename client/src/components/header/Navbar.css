@@ -30,6 +30,7 @@
 }
 .nav-link.active {
     color: #b4871d !important;
+    text-decoration: underline;
   }
 .nav-item a{
     color: grey;

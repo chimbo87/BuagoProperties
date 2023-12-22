@@ -97,7 +97,7 @@ function Home() {
           </button>
         </div>
       </div>
-      <div className="container-fluid" id="visionBox">
+      <div className="container" id="visionBox">
         <h2>What We Do</h2>
         <div class="row">
           <div class="col-lg-4 col-md-4">
@@ -144,60 +144,80 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="container-fluid" id="workList">
+      <div className="container" id="workList">
         <h2>No Work Is Too Small Or Too Big For Us</h2>
         <div class="row" id="workListBox">
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-3 col-md-4">
             <div id="workListBoxCard">
+              <h5>Pre-Construction Services</h5>
               <ul>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
+                <li>Site clearance</li>
+                <li>Brick laying</li>
+                <li>Paving</li>
+                <li>Flooring</li>
+                <li>Draining</li>
+                <li>Plumbing</li>
+                <li>Electrical Wiring</li>
+                <li>Draining</li>
+                <li>Plumbing</li>
+                <li>Electrical Wiring</li>
               </ul>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-3 col-md-4">
             <div id="workListBoxCard">
+            <h5>Construction Services</h5>
               <ul>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
+              <li>Site clearance</li>
+                <li>Brick laying</li>
+                <li>Paving</li>
+                <li>Flooring</li>
+                <li>Draining</li>
+                <li>Plumbing</li>
+                <li>Electrical Wiring</li>
+                <li>Draining</li>
+                <li>Plumbing</li>
+                <li>Electrical Wiring</li>
               </ul>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-3 col-md-4">
             <div id="workListBoxCard">
+            <h5>Residential Constructions</h5>
               <ul>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survivcenturies,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
-                <li>It has survived not only five centuries,</li>
+              <li>Site clearance</li>
+                <li>Brick laying</li>
+                <li>Paving</li>
+                <li>Flooring</li>
+                <li>Draining</li>
+                <li>Plumbing</li>
+                <li>Electrical Wiring</li>
+                <li>Draining</li>
+                <li>Plumbing</li>
+                <li>Electrical Wiring</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div id="workListBoxCard">
+            <h5>Commercial Construction</h5>
+              <ul>
+              <li>Site clearance</li>
+                <li>Brick laying</li>
+                <li>Paving</li>
+                <li>Flooring</li>
+                <li>Draining</li>
+                <li>Plumbing</li>
+                <li>Electrical Wiring</li>
+                <li>Draining</li>
+                <li>Plumbing</li>
+                <li>Electrical Wiring</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div className="container-fluid" id="ourVisionWrap">
+      <div className="container" id="ourVisionWrap">
         <div class="row">
           <div class="col-lg-6 col-md-4">
             <div id="ourVisionCard">
@@ -227,7 +247,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="container-fluid" id="getInTouch">
+      <div className="container" id="getInTouch">
         <div class="row">
           <div class="col-lg-8 col-md-4">
             <form class="row g-3" id="getIntouchForm">

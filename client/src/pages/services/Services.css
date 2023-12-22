@@ -1,0 +1,69 @@
+#ourServices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/homebanner.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 0px 80px 80px;
+}
+#ourServices h2{
+   color: #cb822f;
+    font-weight: 700;
+}
+#ourServicesBox{
+    position: relative;
+    top: -50px;
+    background-color: #edeaea;
+    padding-top: 10px;
+}
+#serviceCardInfor h4{
+ text-align: center;
+ font-weight: 700;
+ color: #cb822f;
+}
+#services{
+    margin-top: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#services h4{
+    text-align: center;
+    font-weight: 700;
+    color: #cb822f;
+}
+#serviceCard{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 5px;
+    border-radius: 10px;
+  
+}
+#serviceCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#serviceCard img:hover{
+    filter: brightness(50%);
+}
+#serviceCard p{
+   max-width: 550px;
+   line-height: 1.8rem;
+   margin-top: 10px;
+}
+#serviceCard p i{
+ color: #cb822f;
+ font-size: 20px;
+
+ 
+ }
