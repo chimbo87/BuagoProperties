@@ -203,6 +203,27 @@ function About() {
             </div>
           </div>
         </div>
+        <div class="row" id="aboutRecords">
+        
+          <div class="col-lg-4 col-md-4">
+            <div id="aboutRecordsCard">
+              <h4>10+</h4>
+              <h5>Years Of Experience</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="aboutRecordsCard">
+              <h4>1000+</h4>
+              <h5>Completed Projects</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="aboutRecordsCard">
+              <h4>100+</h4>
+              <h5>Happy Clients</h5>
+            </div>
+          </div>
+        </div>
         <div id="faqBox">
           <h4>Why Choose Us ?</h4>
           <div class="accordion" id="accordionPanelsStayOpenExample">
@@ -358,26 +379,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div class="row" id="aboutRecords">
-          <div class="col-lg-4 col-md-4">
-            <div id="aboutRecordsCard">
-              <h4>10+</h4>
-              <h5>Years Of Experience</h5>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div id="aboutRecordsCard">
-              <h4>1000+</h4>
-              <h5>Completed Projects</h5>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div id="aboutRecordsCard">
-              <h4>100+</h4>
-              <h5>Happy Clients</h5>
-            </div>
-          </div>
-        </div>
+      
         <div id="reviews">
           <h4>What Our Clients Say</h4>
           <AliceCarousel

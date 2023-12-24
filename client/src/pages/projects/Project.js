@@ -3,7 +3,6 @@ import "./Project.css";
 import Banner02 from "../../assets/about.jpg";
 import Footer from "../../components/footer/Footer";
 
-
 function Project() {
   return (
     <>
@@ -27,117 +26,129 @@ function Project() {
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-4">
-            <div>
-            <img src={Banner02} class="d-block w-100" alt="..." />
-            <div> 
-              <h5>Paving</h5>
-               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,{" "}
-              </p></div>
+        <div class="col-lg-4 col-md-4">
+            <div id="theServiceCard">
+              <img src={Banner02} class="d-block w-100" alt="..." />
+              <div id="theServiceCardBox">
+                <h5>Paving</h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <p>Harare, Zimbabwe ~<i>23 October 2023</i></p>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
-            <div>
-            <img src={Banner02} class="d-block w-100" alt="..." />
-            <div> 
-              <h5>Paving</h5>
-               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,{" "}
-              </p></div>
+            <div id="theServiceCard">
+              <img src={Banner02} class="d-block w-100" alt="..." />
+              <div id="theServiceCardBox">
+                <h5>Paving</h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <p>Harare, Zimbabwe ~<i>23 October 2023</i></p>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
-            <div>
-            <img src={Banner02} class="d-block w-100" alt="..." />
-            <div> 
-              <h5>Paving</h5>
-               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,{" "}
-              </p></div>
+            <div id="theServiceCard">
+              <img src={Banner02} class="d-block w-100" alt="..." />
+              <div id="theServiceCardBox">
+                <h5>Paving</h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <p>Harare, Zimbabwe ~<i>23 October 2023</i></p>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
-            <div>
-            <img src={Banner02} class="d-block w-100" alt="..." />
-            <div> 
-              <h5>Paving</h5>
-               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,{" "}
-              </p></div>
+            <div id="theServiceCard">
+              <img src={Banner02} class="d-block w-100" alt="..." />
+              <div id="theServiceCardBox">
+                <h5>Paving</h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <p>Harare, Zimbabwe ~<i>23 October 2023</i></p>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
-            <div>
-            <img src={Banner02} class="d-block w-100" alt="..." />
-            <div> 
-              <h5>Paving</h5>
-               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,{" "}
-              </p></div>
+            <div id="theServiceCard">
+              <img src={Banner02} class="d-block w-100" alt="..." />
+              <div id="theServiceCardBox">
+                <h5>Paving</h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <p>Harare, Zimbabwe ~<i>23 October 2023</i></p>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
-            <div>
-            <img src={Banner02} class="d-block w-100" alt="..." />
-            <div> 
-              <h5>Paving</h5>
-               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,{" "}
-              </p></div>
+            <div id="theServiceCard">
+              <img src={Banner02} class="d-block w-100" alt="..." />
+              <div id="theServiceCardBox">
+                <h5>Paving</h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <p>Harare, Zimbabwe ~<i>23 October 2023</i></p>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
-            <div>
-            <img src={Banner02} class="d-block w-100" alt="..." />
-            <div> 
-              <h5>Paving</h5>
-               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,{" "}
-              </p></div>
+            <div id="theServiceCard">
+              <img src={Banner02} class="d-block w-100" alt="..." />
+              <div id="theServiceCardBox">
+                <h5>Paving</h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <p>Harare, Zimbabwe ~<i>23 October 2023</i></p>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
-            <div>
-            <img src={Banner02} class="d-block w-100" alt="..." />
-            <div> 
-              <h5>Paving</h5>
-               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,{" "}
-              </p></div>
+            <div id="theServiceCard">
+              <img src={Banner02} class="d-block w-100" alt="..." />
+              <div id="theServiceCardBox">
+                <h5>Paving</h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <p>Harare, Zimbabwe ~<i>23 October 2023</i></p>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
-            <div>
-            <img src={Banner02} class="d-block w-100" alt="..." />
-            <div> 
-              <h5>Paving</h5>
-               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,{" "}
-              </p></div>
+            <div id="theServiceCard">
+              <img src={Banner02} class="d-block w-100" alt="..." />
+              <div id="theServiceCardBox">
+                <h5>Paving</h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <p>Harare, Zimbabwe ~<i>23 October 2023</i></p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <Footer/>
+      <div id="readMoreBtn">
+        <button>See More</button>
+      </div>
+      <Footer />
     </>
   );
 }

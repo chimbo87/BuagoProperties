@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Banner01 from "../../assets/homebanner.jpeg";
+import Acon from "../../assets/iconcard.png";
 import Banner02 from "../../assets/about.jpg";
 import Banner03 from "../../assets/construction.jpg";
 import Vision from "../../assets/vision.jpeg";
@@ -103,6 +104,7 @@ function Home() {
           <div class="col-lg-4 col-md-4">
             <div id="visionCard">
               <i class="bx bx-building-house"></i>
+              <img src={Acon}/>
               <h6>Infrusture Construction</h6>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting

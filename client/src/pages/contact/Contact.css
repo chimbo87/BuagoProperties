@@ -1,0 +1,93 @@
+#theContactPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/homebanner.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 0px 80px 80px;
+}
+#theContactPage h2{
+    color: #cb822f;
+    font-weight: 700;
+}
+#theContactPageBox{
+    position: relative;
+    top: -50px;
+    background-color: #edeaea;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#contactForm{
+    background-color: white;
+    box-shadow: 2px 2px 10px #8080807e;
+    padding: 0px 0px 10px 0px;
+    margin-top: 0px;
+}
+#contactForm h4{
+    color: #cb822f;
+    font-weight: 700;
+    text-align: center;
+}
+#contactFormBtn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#contactFormBtn button{
+    width: 100%;
+    padding: 8px 0px;
+    background-color: #cb822f;
+    border: none;
+    border-radius: 5px;
+    color: antiquewhite;
+}
+#contactSocials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #cb822f36;
+    border-radius: 4px;
+    background-color: #3d74a0;
+}
+#contactSocials h4{
+    color: #cb822f;
+    font-weight: 700;
+    
+}
+#contactSocialsCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+   
+}
+#contactSocialsCard button{
+    width: 100%;
+    padding: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    background-color: antiquewhite;
+    color: #3d74a0;
+    margin-top: 10px;
+}
+#contactCareers{
+    margin-top: 20px;
+    /* border: 1px solid gray; */
+    padding: 5px;
+    background-color: white;
+}
+#contactCareers h4{
+    text-align: center;
+    color: #cb822f;
+    font-weight: 700;
+    text-transform: capitalize;
+}

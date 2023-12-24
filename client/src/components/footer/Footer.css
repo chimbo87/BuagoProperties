@@ -22,10 +22,11 @@
   list-style: none;
   text-decoration: underline;
   cursor: pointer;
+  text-decoration: none;
 }
 #footerCard ul li:hover {
   color: #cb822f;
-  text-decoration: none;
+  text-decoration: underline;
 }
 #footerCardNews {
   width: 100%;
