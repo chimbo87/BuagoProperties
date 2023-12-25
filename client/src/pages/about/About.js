@@ -391,6 +391,7 @@ function About() {
             infinite={true}
             autoPlayInterval={3000}
             responsive={responsive}
+            // animationType="fadeout"
           />
         </div>
       </div>

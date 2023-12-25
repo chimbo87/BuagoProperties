@@ -2,6 +2,8 @@ import React from "react";
 import "./Home.css";
 import Banner01 from "../../assets/homebanner.jpeg";
 import Acon from "../../assets/iconcard.png";
+import Acon1 from "../../assets/Acon01.png";
+import Acon2 from "../../assets/Acon02.png";
 import Banner02 from "../../assets/about.jpg";
 import Banner03 from "../../assets/construction.jpg";
 import Vision from "../../assets/vision.jpeg";
@@ -103,43 +105,36 @@ function Home() {
         <div class="row">
           <div class="col-lg-4 col-md-4">
             <div id="visionCard">
-              <i class="bx bx-building-house"></i>
-              <img src={Acon}/>
-              <h6>Infrusture Construction</h6>
+              <img src={Acon2}/>
+              <h5>Infrusture Construction</h5>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries,
+                text ever since the 1500s,
               </p>
               <a href="#">Read More</a>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
             <div id="visionCard">
-              <i class="bx bx-bookmark-alt-minus"></i>
-              <h6>Civil Engineering</h6>
+            <img src={Acon1}/>
+              <h5>Civil Engineering</h5>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries,
+                text ever since the 1500s,
               </p>
               <a href="#">Read More</a>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
             <div id="visionCard">
-              <i class="bx bx-briefcase-alt"></i>
-              <h6> Quantity Survery</h6>
+            <img src={Acon}/>
+              <h5>Quantity Survery</h5>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries,
+                text ever since the 1500s,
               </p>
               <a href="#">Read More</a>
             </div>

@@ -36,21 +36,28 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 15px;
-  background-color: #f5f5f565;
+  background-color: #d29a681d;
   padding: 10px;
   border-radius: 4px;
   height: 300px;
+  border: 1px solid #c2c1c162;
+}
+#visionCard img{
+  width: 100px;
+  height: inherit;
+  object-fit: contain;
+  color: #cb822f;
 }
 #visionCard:hover {
-  border: 1px solid #c2c1c162;
+ background-color: white;
 }
 #visionCard i {
   color: #cb822f;
   text-align: center;
   font-size: 30px;
 }
-#visionCard h6 {
-  color: #3d74a0;
+#visionCard h5{
+  color: #cb822f;
   margin: 10px;
   font-weight: 600;
 }
@@ -156,7 +163,7 @@
   color: white;
 }
 #getIntouchFormBox {
-  background-color: #3d74a0;
+  background-image: linear-gradient(to bottom, #3d73a0ed,#cb822f6b);
   height: 100%;
   width: 100%;
   display: flex;
