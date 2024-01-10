@@ -1,27 +1,82 @@
-#homeBanner {
+#reviewCard {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.742), rgba(0, 0, 0, 0.5)),
+    url("../../assets/homebanner.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
 }
-#homeBanner img {
+#reviewCard01 {
   width: 100%;
-  height: inherit;
-  object-fit: cover;
-  filter: brightness(20%);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.742), rgba(0, 0, 0, 0.5)),
+    url("../../assets/homebanner.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
 }
-#homeBanner h1 {
+#reviewCard02 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.742), rgba(0, 0, 0, 0.5)),
+    url("../../assets/about.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
+#reviewCard03 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.742), rgba(0, 0, 0, 0.5)),
+    url("../../assets/homebanner.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
+#reviewCardInner {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#reviewCardInner h1 {
+  color: #cb822f;
   font-weight: 700;
-  font-size: 50px;
-  background: -webkit-linear-gradient(0deg, antiquewhite, #3d74a0, #d29968);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  text-align: start;
+  font-family: "Playfair Display", serif;
 }
-
-#homeBanner button {
-  padding: 12px 35px;
-  border-radius: 4px;
-  background-color: #cb822f;
-  color: white;
+#reviewCardInner h3 {
+  color: antiquewhite;
+}
+#reviewCardInner p {
+  color: antiquewhite;
+}
+#reviewCardInner button {
+  margin-top: 20px;
+  padding: 12px 40px;
   border: none;
+  background-color: #faebd727;
+  color: #d29968;
+  border-radius: 0px;
+  border: 2px solid antiquewhite;
 }
 
 #visionBox h2 {
@@ -42,21 +97,21 @@
   height: 300px;
   border: 1px solid #c2c1c162;
 }
-#visionCard img{
+#visionCard img {
   width: 100px;
   height: inherit;
   object-fit: contain;
   color: #cb822f;
 }
 #visionCard:hover {
- background-color: white;
+  background-color: white;
 }
 #visionCard i {
   color: #cb822f;
   text-align: center;
   font-size: 30px;
 }
-#visionCard h5{
+#visionCard h5 {
   color: #cb822f;
   margin: 10px;
   font-weight: 600;
@@ -71,7 +126,7 @@
 }
 #workList {
   margin-top: 20px;
-  background-image: linear-gradient(to right,#cb822f64, #3d73a089);
+  /* background-image: linear-gradient(to right, #cb822f64, #3d73a089); */
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -93,13 +148,23 @@
   border-radius: 4px;
   background-color: #faebd759;
   margin-top: 10px;
+  cursor: pointer;
 }
-#workListBoxCard h5{
+#workListBoxCard:hover {
+  box-shadow: 2px 2px 10px antiquewhite;
+}
+#workListBoxCard h5 {
   font-weight: 600;
-  color: rgb(25, 24, 24);
+  color: antiquewhite;
+  background-color: #cb822f;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
 }
-#workListBoxCard ul li{
+#workListBoxCard ul li {
   line-height: 1.8rem;
+  list-style: none;
+  color: #3d74a0;
 }
 #ourVisionWrap {
   margin-top: 20px;
@@ -163,7 +228,7 @@
   color: white;
 }
 #getIntouchFormBox {
-  background-image: linear-gradient(to bottom, #3d73a0ed,#cb822f6b);
+  background-image: linear-gradient(to bottom, #3d73a0ed, #cb822f6b);
   height: 100%;
   width: 100%;
   display: flex;

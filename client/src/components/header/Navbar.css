@@ -49,9 +49,10 @@
 }
 #socialIcons i{
     margin: 0px 10px;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
-    color: rgb(203, 130, 47);
+    color: #3d74a0;
+    font-weight: 700;
 }
 #navBtn button{
     padding: 10px 25px;

@@ -8,104 +8,91 @@ import Banner02 from "../../assets/about.jpg";
 import Banner03 from "../../assets/construction.jpg";
 import Vision from "../../assets/vision.jpeg";
 import Footer from "../../components/footer/Footer";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
+  const handleDragStart = (e) => e.preventDefault();
+  const items = [
+    <div id="reviewCard01">
+      <div id="reviewCardInner">
+        <h1>Infrastructure Building</h1>
+        <h3>
+          Witness the Evolution of Structures. Crafted for Strength and
+          Innovation
+        </h3>
+
+        <button
+          onClick={() => {
+            navigate("/projects");
+          }}
+        >
+          Our Work
+        </button>
+      </div>
+    </div>,
+    <div id="reviewCard02">
+      <div id="reviewCardInner">
+        <h1>Quantity Surveyor</h1>
+        <h3>
+          Navigating Precise Project Estimates and Management. Your Gateway to
+          Optimized Costs.
+        </h3>
+
+        <button
+          onClick={() => {
+            navigate("/projects");
+          }}
+        >
+          Our Work
+        </button>
+      </div>
+    </div>,
+    <div id="reviewCard03">
+      <div id="reviewCardInner">
+        <h1>Civil Engineering</h1>
+        <h3>
+          Unveiling the Art of Urban Development. Where Vision Meets
+          Unparalleled Expertise
+        </h3>
+
+        <button
+          onClick={() => {
+            navigate("/projects");
+          }}
+        >
+          Our Work
+        </button>
+      </div>
+    </div>,
+  ];
+  const responsive = {
+    0: { items: 1 },
+    1024: { items: 1 },
+  };
   return (
     <>
-      <div className="container-fluid">
-        <div id="carouselExampleCaptions" class="carousel slide">
-          <div>
-            {/* <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button> */}
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" id="homeBanner">
-              <img src={Banner02} class="d-block w-100" alt="..." />
-              <div class="carousel-caption  d-md-block">
-                <h1>
-                  Commited To Effective And<br></br>Superior{" "}
-                  <span>Quality </span> Results
-                </h1>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s
-                </p>
-                <button>Explore</button>
-              </div>
-            </div>
-            <div class="carousel-item" id="homeBanner">
-              <img src={Banner01} class="d-block w-100" alt="..." />
-              <div class="carousel-caption  d-md-block">
-                <h1>Empowering Dreams, Building Legacies</h1>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s
-                </p>
-                <button>Explore</button>
-              </div>
-            </div>
-            <div class="carousel-item" id="homeBanner">
-              <img src={Banner03} class="d-block w-100" alt="..." />
-              <div class="carousel-caption  d-md-block">
-                <h1>
-                  Commited To Effective And<br></br>Superior{" "}
-                  <span>Quality </span> Results
-                </h1>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s
-                </p>
-                <button>Explore</button>
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+      <div>
+        <AliceCarousel
+          mouseTracking
+          items={items}
+          autoPlay
+          disableButtonsControls={true}
+          disableDotsControls={true}
+          infinite={true}
+          autoPlayInterval={5000}
+          responsive={responsive}
+          animationType="fadeout"
+        />
       </div>
       <div className="container" id="visionBox">
         <h2>What We Do</h2>
         <div class="row">
           <div class="col-lg-4 col-md-4">
             <div id="visionCard">
-              <img src={Acon2}/>
+              <img src={Acon2} />
               <h5>Infrusture Construction</h5>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -117,7 +104,7 @@ function Home() {
           </div>
           <div class="col-lg-4 col-md-4">
             <div id="visionCard">
-            <img src={Acon1}/>
+              <img src={Acon1} />
               <h5>Civil Engineering</h5>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -129,7 +116,7 @@ function Home() {
           </div>
           <div class="col-lg-4 col-md-4">
             <div id="visionCard">
-            <img src={Acon}/>
+              <img src={Acon} />
               <h5>Quantity Survery</h5>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -163,9 +150,9 @@ function Home() {
           </div>
           <div class="col-lg-3 col-md-4">
             <div id="workListBoxCard">
-            <h5>Construction Services</h5>
+              <h5>Construction Services</h5>
               <ul>
-              <li>Site clearance</li>
+                <li>Site clearance</li>
                 <li>Brick laying</li>
                 <li>Paving</li>
                 <li>Flooring</li>
@@ -180,9 +167,9 @@ function Home() {
           </div>
           <div class="col-lg-3 col-md-4">
             <div id="workListBoxCard">
-            <h5>Residential Constructions</h5>
+              <h5>Residential Constructions</h5>
               <ul>
-              <li>Site clearance</li>
+                <li>Site clearance</li>
                 <li>Brick laying</li>
                 <li>Paving</li>
                 <li>Flooring</li>
@@ -197,9 +184,9 @@ function Home() {
           </div>
           <div class="col-lg-3 col-md-4">
             <div id="workListBoxCard">
-            <h5>Commercial Construction</h5>
+              <h5>Commercial Construction</h5>
               <ul>
-              <li>Site clearance</li>
+                <li>Site clearance</li>
                 <li>Brick laying</li>
                 <li>Paving</li>
                 <li>Flooring</li>
@@ -306,7 +293,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
