@@ -323,15 +323,15 @@ function About() {
                   class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseThree"
+                  data-bs-target="#panelsStayOpen-collapseFour"
                   aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapseThree"
+                  aria-controls="panelsStayOpen-collapseFour"
                 >
-                  Accordion Item #3
+                  Accordion Item #4
                 </button>
               </h2>
               <div
-                id="panelsStayOpen-collapseThree"
+                id="panelsStayOpen-collapseFour"
                 class="accordion-collapse collapse"
               >
                 <div class="accordion-body">
@@ -347,21 +347,22 @@ function About() {
                 </div>
               </div>
             </div>
+
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
                   class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseThree"
+                  data-bs-target="#panelsStayOpen-collapseFive"
                   aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapseThree"
+                  aria-controls="panelsStayOpen-collapseFive"
                 >
-                  Accordion Item #3
+                  Accordion Item #5
                 </button>
               </h2>
               <div
-                id="panelsStayOpen-collapseThree"
+                id="panelsStayOpen-collapseFive"
                 class="accordion-collapse collapse"
               >
                 <div class="accordion-body">
